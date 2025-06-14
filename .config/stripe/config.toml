@@ -1,0 +1,13 @@
+color = ''
+project-name = 'default'
+[default]
+account_id = 'acct_1MGO0aIUXOQFyzdp'
+device_name = 'hugo'
+display_name = 'mozze.'
+live_mode_api_key = 'rk_live_***********************************************************************************************BAta'
+live_mode_key_expires_at = '2025-01-09'
+live_mode_pub_key = 'pk_live_51MGO0aIUXOQFyzdpvhC2CAFsvIlNhKmES3FEMSwsasddjara1Hs8EIoeGEony9dsuFahLtQYHslzRURvbMK4r9LI00dr1sfwNd'
+test_mode_api_key = 'rk_test_51MGO0aIUXOQFyzdpa3kOnltB3yo3gw8bxhpTsMA3ui0FGC2VxmuxGjxJcICyYItGD5ImTOVR0iBnBqtEAD4bWcBl00NjJcK1P4'
+test_mode_key_expires_at = '2025-01-09'
+test_mode_pub_key = 'pk_test_51MGO0aIUXOQFyzdpC1j8KxyRcadJUoEewQ97puY5FHuRHMZ1J4RVLLkHBZxJtrp0JbF0SdEG6T5z54yM8w1k5KB7007sEnTDea'
+

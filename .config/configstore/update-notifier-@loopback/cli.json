@@ -1,0 +1,10 @@
+{
+	"optOut": false,
+	"lastUpdateCheck": 1742442051732,
+	"update": {
+		"latest": "6.2.3",
+		"current": "2.18.0",
+		"type": "major",
+		"name": "@loopback/cli"
+	}
+}
