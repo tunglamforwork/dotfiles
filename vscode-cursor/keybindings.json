@@ -1,0 +1,90 @@
+[
+  {
+    "key": "alt+d",
+    "command": "deleteInsideWord"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+alt+k ctrl+alt+g",
+    "command": "tailwindshades.generateColorPalette",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+g",
+    "command": "-tailwindshades.generateColorPalette",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "extension.vim_ctrl+w",
+    "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-extension.vim_ctrl+w",
+    "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "c",
+    "command": "filesExplorer.copy",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "p",
+    "command": "filesExplorer.paste",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "tab",
+    "command": "acceptSelectedSuggestion",
+    "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "composerMode.chat"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.navigateBack",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "workbench.action.navigateForward",
+    "when": "editorTextFocus"
+  }
+]
